@@ -1,0 +1,48 @@
+.header {
+  background: #8b005d;
+  background: -webkit-linear-gradient(to right, #d40690, #8b005d);
+  background: linear-gradient(to right, #d40690, #8b005d);
+  font-family: "Trebuchet MS" !important;
+}
+
+.button:hover {
+  background-color: #f6f5f7 !important;
+  color: #8b005d !important;
+  font-weight: 700 !important;
+}
+
+/* */
+.span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  border-radius: 20px;
+  border: 1px solid #8b005d;
+  background-color: #8b005d;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 45px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.actions button:hover
+/* ,
+.actions button:active  */
+{
+  background-color: #f6f5f7;
+  color: #8b005d;
+  transform: scale(0.95);
+}
+
